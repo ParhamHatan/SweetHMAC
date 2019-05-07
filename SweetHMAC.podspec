@@ -2,7 +2,7 @@ projectName = "SweetHMAC"
 
 Pod::Spec.new do |spec|
   spec.name               = "#{projectName}"
-  spec.version            = "3.0"
+  spec.version            = "4.0"
   spec.license            = "MIT"
   spec.summary            = "A tiny and easy to use Swift class to encrypt strings using HMAC algorithms."
   spec.homepage           = "https://github.com/jancassio/#{projectName}"
