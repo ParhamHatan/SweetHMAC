@@ -117,11 +117,11 @@
 		D25049E31AC904FF007F9B92 /* SweetHMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetHMAC.swift; sourceTree = "<group>"; };
 		D2D18F4E1CC9C3C400C02BA9 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		D2D18F571CC9CC3B00C02BA9 /* CommonCryptoMacOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCryptoMacOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2D18F581CC9CC3B00C02BA9 /* CommonCryptoMacOsX.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CommonCryptoMacOsX.plist; path = /Users/jancassio/Works/labs/ios/SweetHMAC/SweetHMAC/CommonCryptoMacOsX.plist; sourceTree = "<absolute>"; };
+		D2D18F581CC9CC3B00C02BA9 /* CommonCryptoMacOsX.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CommonCryptoMacOsX.plist; path = /Users/parham/Desktop/SweetHMAC/SweetHMAC/CommonCryptoMacOsX.plist; sourceTree = "<absolute>"; };
 		D2D18F651CC9CCA300C02BA9 /* CommonCryptoiPhoneOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCryptoiPhoneOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2D18F661CC9CCA300C02BA9 /* CommonCryptoiPhoneOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CommonCryptoiPhoneOS.plist; path = /Users/jancassio/Works/labs/ios/SweetHMAC/SweetHMAC/CommonCryptoiPhoneOS.plist; sourceTree = "<absolute>"; };
+		D2D18F661CC9CCA300C02BA9 /* CommonCryptoiPhoneOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CommonCryptoiPhoneOS.plist; path = /Users/parham/Desktop/SweetHMAC/SweetHMAC/CommonCryptoiPhoneOS.plist; sourceTree = "<absolute>"; };
 		D2D18F6F1CC9CCAE00C02BA9 /* CommonCryptoiPhoneSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCryptoiPhoneSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2D18F701CC9CCAE00C02BA9 /* CommonCryptoiPhoneSimulator.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CommonCryptoiPhoneSimulator.plist; path = /Users/jancassio/Works/labs/ios/SweetHMAC/SweetHMAC/CommonCryptoiPhoneSimulator.plist; sourceTree = "<absolute>"; };
+		D2D18F701CC9CCAE00C02BA9 /* CommonCryptoiPhoneSimulator.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CommonCryptoiPhoneSimulator.plist; path = /Users/parham/Desktop/SweetHMAC/SweetHMAC/CommonCryptoiPhoneSimulator.plist; sourceTree = "<absolute>"; };
 		D2DD44271ACEF46D0069F7D8 /* SweetHMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SweetHMAC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -414,7 +414,7 @@
 			attributes = {
 				LastSwiftMigration = 0720;
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Jan Cássio";
 				TargetAttributes = {
 					D222ABC01AD74B1000276E42 = {
@@ -426,7 +426,7 @@
 					};
 					D25049C51AC904B4007F9B92 = {
 						CreatedOnToolsVersion = 6.2;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 					D2D18F4F1CC9CC3B00C02BA9 = {
 						LastSwiftMigration = 0800;
@@ -630,14 +630,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -681,14 +689,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -742,7 +758,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -772,7 +789,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

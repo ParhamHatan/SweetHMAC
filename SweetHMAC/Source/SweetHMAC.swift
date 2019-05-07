@@ -208,7 +208,7 @@ public class SweetHMAC {
       hash.appendFormat("%02x", result[i])
     }
     
-    result.deinitialize()
+    result.deinitialize(count:)
     
     return String( hash )
   }
@@ -312,7 +312,7 @@ public class SweetHMAC {
       hash.appendFormat("%02x", result[i])
     }
     
-    result.deinitialize()
+    result.deinitialize(count:)
     
     return String( hash )
   }
